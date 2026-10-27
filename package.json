@@ -1,0 +1,29 @@
+{
+  "name": "paydesk",
+  "version": "1.0.0",
+  "description": "Learning Center student tuition management and monthly debtor tracking system",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/db/seed.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [
+    "express",
+    "sqlite",
+    "debtors",
+    "students",
+    "fullstack"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "supertest": "^7.3.1"
+  }
+}
