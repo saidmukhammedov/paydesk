@@ -10,3 +10,4 @@ module.exports = {
   DB_PATH: process.env.DB_PATH || defaultDbPath,
   NODE_ENV: process.env.NODE_ENV || 'development'
 };
+

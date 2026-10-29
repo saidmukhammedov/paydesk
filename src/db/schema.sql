@@ -22,3 +22,4 @@ CREATE TABLE IF NOT EXISTS payments (
 CREATE INDEX IF NOT EXISTS idx_payments_student_id ON payments(student_id);
 CREATE INDEX IF NOT EXISTS idx_payments_payment_date ON payments(payment_date);
 CREATE INDEX IF NOT EXISTS idx_students_group_name ON students(group_name);
+

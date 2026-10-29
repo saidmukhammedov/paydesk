@@ -17,3 +17,4 @@ function createDebtorRouter(debtorService = new DebtorService()) {
 }
 
 module.exports = createDebtorRouter;
+

@@ -172,3 +172,4 @@ module.exports = {
   validateStudentInput,
   validatePaymentInput
 };
+

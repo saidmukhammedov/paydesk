@@ -50,3 +50,4 @@ describe('Static Assets & Frontend Serving', () => {
     assert.equal(res.body.status, 'ok');
   });
 });
+

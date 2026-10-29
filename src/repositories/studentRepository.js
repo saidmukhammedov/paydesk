@@ -169,3 +169,4 @@ class StudentRepository {
 }
 
 module.exports = StudentRepository;
+

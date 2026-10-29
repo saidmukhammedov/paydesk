@@ -1,6 +1,6 @@
 # PayDesk - Student Tuition & Debtors Tracker
 
-A lightweight web app for tracking student tuition fees, payments, and monthly debtors.
+A lightweight web application for tracking student tuition fees, payment records, and monthly debtors.
 
 ## 1. Prerequisites
 
@@ -208,3 +208,4 @@ Tests run against an isolated in-memory database and cover:
 2. **Report & receipt export (CSV / PDF)**: Add options to export monthly debtor reports as CSV files and generate printable receipts for individual payments.
 3. **Authentication & basic roles**: Implement session-based login distinguishing view-only accounts (teachers) from administrative accounts (accountants/admins).
 4. **Automated reminder notifications**: Add email or SMS reminders sent automatically to debtors on scheduled dates.
+
